@@ -13,7 +13,7 @@
         "indent_size": 4,
         "indent_char": " ",
         "css": {
-           "indent_size": 4
+            "indent_size": 4
         }
     },
     "beautify.language": {
@@ -40,6 +40,8 @@
     "html.format.wrapLineLength": 240,
     "workbench.activityBar.visible": false,
     "git.confirmSync": false,
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
     "files.exclude": {
         "**/.git": true,
         "**/.gitignore": true,
@@ -60,7 +62,6 @@
     "window.zoomLevel": 1,
     "git.enableSmartCommit": true,
     "extensions.ignoreRecommendations": true,
-    "files.autoSave": "afterDelay",
     "terminal.integrated.scrollback": 10000,
     "terminal.integrated.cwd": "${fileDirname}",
     "terminal.integrated.fontFamily": "Courier New",
@@ -70,7 +71,7 @@
     "[yaml]": {
         "editor.tabSize": 2
     },
-    "files.eol": "\n",
     "workbench.iconTheme": "vscode-icons",
-    "breadcrumbs.enabled": false
+    "breadcrumbs.enabled": false,
+    "explorer.compactFolders": false
 }
