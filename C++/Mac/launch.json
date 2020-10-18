@@ -10,7 +10,7 @@
             // Install CodeLLDB extension
             "type": "lldb",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
             "preLaunchTask": "clang++ build active file"
         }
     ]
