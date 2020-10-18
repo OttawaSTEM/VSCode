@@ -7,23 +7,11 @@
     "configurations": [
         {
             "name": "clang++ build and debug active file",
-            "type": "cppdbg",
+            // Install CodeLLDB extension
+            "type": "lldb",
             "request": "launch",
-            "program": "${fileDirname}/${fileBasenameNoExtension}.out",
-            "args": [],
-            "stopAtEntry": false,
-            "cwd": "${fileDirname}",
-            "environment": [],
-            "externalConsole": false,
-            "MIMode": "lldb",
-            "preLaunchTask": "clang++ build active file",
-            "setupCommands": [
-                {
-                    "description": "Enable pretty-printing for debug",
-                    "text": "-enable-pretty-printing",
-                    "ignoreFailures": true
-                }
-            ]
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "preLaunchTask": "clang++ build active file"
         }
     ]
 }
