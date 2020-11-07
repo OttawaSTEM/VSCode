@@ -1,0 +1,77 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "sideBar.background": "#000000",
+        "tab.activeBackground": "#555",
+        "tab.inactiveBackground": "#111"
+    },
+    "editor.minimap.maxColumn": 60,
+    "editor.minimap.enabled": false,
+    "window.title": "${rootName} - ${activeEditorLong}",
+    "beautify.config": {
+        "indent_size": 4,
+        "indent_char": " ",
+        "css": {
+            "indent_size": 4
+        }
+    },
+    "beautify.language": {
+        "js": {
+            "type": [
+                "javascript",
+                "json",
+                "jsonc"
+            ],
+            "filename": [
+                ".jshintrc",
+                ".jsbeautifyrc"
+            ]
+        },
+        "css": [
+            "css",
+            "scss"
+        ],
+        "html": [
+            "htm",
+            "html"
+        ]
+    },
+    "html.format.wrapLineLength": 240,
+    "workbench.activityBar.visible": false,
+    "git.confirmSync": false,
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__/": true,
+        "**/*.pyo": true,
+        "**/venv": true,
+        "**/.vscode": true
+    },
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "git.autofetch": true,
+    "window.zoomLevel": 1,
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.cwd": "${fileDirname}",
+    "terminal.integrated.fontFamily": "Courier New",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.shell.osx": "/bin/bash",
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "breadcrumbs.enabled": false,
+    "explorer.compactFolders": false
+}
