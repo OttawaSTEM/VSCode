@@ -2,9 +2,9 @@
     "python.pythonPath": "D:\\Workspaces\\Django\\ojnoi\\venv\\Scripts\\python.exe",
     "python.linting.pylintEnabled": true,
     "python.linting.pylintPath": "D:\\Workspaces\\Django\\ojnoi\\venv\\Scripts\\pylint.exe",
-    "python.linting.pylintArgs": ["--load-plugins", "--errors-only",  "pylint_django"],
+    "python.linting.pylintArgs": ["--load-plugins", "--errors-only", "pylint_django"],
     "files.exclude": {
-        "venv/": true,
+        "venv/": true
     },
     "files.associations": {
         "**/*.html": "html",
