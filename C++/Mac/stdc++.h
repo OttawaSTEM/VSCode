@@ -1,4 +1,5 @@
 // Mac OS (root): Put it into /usr/local/include/bits/stdc++.h
+// Mac OS: In "tasks.json", add "-I", "${workspaceFolder}/bits" to "args"
 
 // C++ includes used for precompiling -*- C++ -*-
 
