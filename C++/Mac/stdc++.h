@@ -126,29 +126,6 @@
 #endif
 
 #if __cplusplus >= 201703L
-#include <any>
 #include <charconv>
-// #include <execution>
 #include <filesystem>
-#include <optional>
-#include <memory_resource>
-#include <string_view>
-#include <variant>
-#endif
-
-#if __cplusplus > 201703L
-#include <bit>
-#include <compare>
-#include <concepts>
-#if __cpp_impl_coroutine
-# include <coroutine>
-#endif
-#include <latch>
-#include <numbers>
-#include <ranges>
-#include <span>
-#include <stop_token>
-#include <semaphore>
-#include <syncstream>
-#include <version>
 #endif
