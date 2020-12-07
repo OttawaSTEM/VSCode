@@ -1,9 +1,8 @@
 // Mac OS (root): Put it into /usr/local/include/bits/stdc++.h
-// Mac OS: In "tasks.json", add "-I", "${workspaceFolder}/bits" to "args"
 
 // C++ includes used for precompiling -*- C++ -*-
 
-// Copyright (C) 2003-2020 Free Software Foundation, Inc.
+// Copyright (C) 2003-2013 Free Software Foundation, Inc.
 //
 // This file is part of the GNU ISO C++ Library.  This library is free
 // software; you can redistribute it and/or modify it under the
@@ -50,8 +49,6 @@
 #include <cstdlib>
 #include <cstring>
 #include <ctime>
-#include <cwchar>
-#include <cwctype>
 
 #if __cplusplus >= 201103L
 #include <ccomplex>
@@ -61,7 +58,8 @@
 #include <cstdbool>
 #include <cstdint>
 #include <ctgmath>
-#include <cuchar>
+#include <cwchar>
+#include <cwctype>
 #endif
 
 // C++
@@ -102,7 +100,6 @@
 #include <array>
 #include <atomic>
 #include <chrono>
-#include <codecvt>
 #include <condition_variable>
 #include <forward_list>
 #include <future>
@@ -119,13 +116,4 @@
 #include <type_traits>
 #include <unordered_map>
 #include <unordered_set>
-#endif
-
-#if __cplusplus >= 201402L
-#include <shared_mutex>
-#endif
-
-#if __cplusplus >= 201703L
-#include <charconv>
-#include <filesystem>
 #endif
