@@ -67,6 +67,7 @@
     "terminal.integrated.fontFamily": "Courier New",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.defaultProfile.osx": "bash",
     "[yaml]": {
         "editor.tabSize": 2
     },
