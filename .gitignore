@@ -45,6 +45,8 @@ tramp
 *.swo
 
 # Mac
+**/*.out.dSYM/
+*.out
 .DS_Store
 ._*
 
