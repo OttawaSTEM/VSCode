@@ -2,7 +2,6 @@
     "workbench.colorTheme": "Monokai",
     "workbench.colorCustomizations": {
         "editor.background": "#000000",
-        "editor.selectionHighlightBackground": "#ffffff80",
         "sideBar.background": "#111111",
         "tab.activeBackground": "#555",
         "tab.inactiveBackground": "#111"
