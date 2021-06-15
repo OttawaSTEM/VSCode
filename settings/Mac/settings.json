@@ -63,7 +63,6 @@
     "git.enableSmartCommit": true,
     "extensions.ignoreRecommendations": true,
     "terminal.integrated.scrollback": 10000,
-    "terminal.integrated.cwd": "",
     "terminal.integrated.fontFamily": "Courier New",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontWeight": "bold",
