@@ -1,0 +1,36 @@
+{
+    "deploy.reloaded": {
+        "packages": [
+            {
+                "name": "Version 1.0.0",
+                "description": "Deploy to remote 1.0.0",
+                "deployOnSave": [ "Deploy Remote" ],
+                "files": [
+                    "files\\*.conf"
+                ],
+                "button": {
+                    "text": "Deploy to remote",
+                    "tooltip": "Click here to deploy to the remote server",
+                    "targets": [ "Deploy Remote" ]
+                }
+            }
+        ],
+        "targets": [
+            {
+                "name": "Deploy Remote",
+                "type": "sftp",
+                "dir": "/tmp",      // Remote target dir
+                "host": "hostname_ip", "port": 22,
+                "user": "azureuser", "privateKey": "",
+                "mappings": {       // Redirect file to destination folder
+                    "/dest/files/*": "/"
+                },
+                "commands": {
+                    "uploaded": [                        
+                        "echo command"
+                    ]
+                }
+            }        
+        ]
+    }
+}
