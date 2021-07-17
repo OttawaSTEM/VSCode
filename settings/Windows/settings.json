@@ -72,5 +72,6 @@
     },
     "workbench.iconTheme": "vscode-icons",
     "breadcrumbs.enabled": false,
-    "explorer.compactFolders": false
+    "explorer.compactFolders": false,
+    "editor.linkedEditing": true
 }
