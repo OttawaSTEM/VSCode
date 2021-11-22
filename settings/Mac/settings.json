@@ -73,5 +73,6 @@
     "workbench.iconTheme": "vscode-icons",
     "breadcrumbs.enabled": false,
     "explorer.compactFolders": false,
-    "editor.linkedEditing": true
+    "editor.linkedEditing": true,
+    "python.terminal.executeInFileDir": true
 }
