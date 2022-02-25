@@ -8,6 +8,8 @@
     },
     "editor.minimap.maxColumn": 60,
     "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
     "window.title": "${rootName} - ${activeEditorLong}",
     "beautify.config": {
         "indent_size": 4,
