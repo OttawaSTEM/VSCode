@@ -8,35 +8,9 @@
     },
     "editor.minimap.maxColumn": 60,
     "editor.minimap.enabled": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs":"active",
     "window.title": "${rootName} - ${activeEditorLong}",
-    "beautify.config": {
-        "indent_size": 4,
-        "indent_char": " ",
-        "css": {
-            "indent_size": 4
-        }
-    },
-    "beautify.language": {
-        "js": {
-            "type": [
-                "javascript",
-                "json",
-                "jsonc"
-            ],
-            "filename": [
-                ".jshintrc",
-                ".jsbeautifyrc"
-            ]
-        },
-        "css": [
-            "css",
-            "scss"
-        ],
-        "html": [
-            "htm",
-            "html"
-        ]
-    },
     "html.format.wrapLineLength": 240,
     "workbench.activityBar.visible": false,
     "git.confirmSync": false,
@@ -74,5 +48,6 @@
     "breadcrumbs.enabled": false,
     "explorer.compactFolders": false,
     "editor.linkedEditing": true,
-    "python.terminal.executeInFileDir": true
+    "python.terminal.executeInFileDir": true,
+    "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }"
 }
