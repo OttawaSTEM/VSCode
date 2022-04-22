@@ -9,7 +9,7 @@
     "editor.minimap.maxColumn": 60,
     "editor.minimap.enabled": false,
     "editor.bracketPairColorization.enabled": true,
-    "editor.guides.bracketPairs":"active",
+    "editor.guides.bracketPairs": "active",
     "window.title": "${rootName} - ${activeEditorLong}",
     "html.format.wrapLineLength": 240,
     "workbench.activityBar.visible": false,
@@ -40,7 +40,7 @@
     "terminal.integrated.fontFamily": "Courier New",
     "terminal.integrated.fontSize": 14,
     "terminal.integrated.fontWeight": "bold",
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",    
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "[yaml]": {
         "editor.tabSize": 2
     },
@@ -49,5 +49,9 @@
     "explorer.compactFolders": false,
     "editor.linkedEditing": true,
     "python.terminal.executeInFileDir": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length=200"
+    ],
     "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4 }"
 }
