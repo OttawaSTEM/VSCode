@@ -6,10 +6,10 @@
         "tab.activeBackground": "#555",
         "tab.inactiveBackground": "#111"
     },
-    "editor.minimap.maxColumn": 60,
-    "editor.minimap.enabled": false,
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
     "window.title": "${rootName} - ${activeEditorLong}",
     "html.format.wrapLineLength": 240,
     "workbench.activityBar.visible": false,
@@ -47,7 +47,6 @@
     "workbench.iconTheme": "vscode-icons",
     "breadcrumbs.enabled": false,
     "explorer.compactFolders": false,
-    "editor.linkedEditing": true,
     "python.terminal.executeInFileDir": true,
     "python.formatting.provider": "autopep8",
     "python.formatting.autopep8Args": [
