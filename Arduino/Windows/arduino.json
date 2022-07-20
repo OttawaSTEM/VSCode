@@ -1,5 +1,7 @@
 {
-    "board": "arduino:avr:uno",
+    "board": "arduino:avr:nano",
+    "sketch": "LED\\LED.ino",
     "port": "COM4",
-    "sketch": "Arduino\\L9110S_H_Bridge_Motor\\L9100S_H_Bridge_Motor.ino"
+    "programmer": "arduino:avrispmkii",
+    "configuration": "cpu=atmega168",
 }
