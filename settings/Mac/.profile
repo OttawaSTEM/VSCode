@@ -1,5 +1,3 @@
-# For ~/.bashrc and ~/.profile and ~/.bash_profile
-
 # Enable terminal color
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
