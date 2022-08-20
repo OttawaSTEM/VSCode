@@ -4,17 +4,17 @@
             "name": "Arduino",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:\\Users\\${env:Username}\\AppData\\Local\\Arduino15\\"
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/"
             ],
             "forcedInclude": [
-                "C:\\Tools\\Arduino\\hardware\\arduino\\avr\\cores\\arduino\\Arduino.h"
+                "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Arduino.h"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\Tools\\Mingw-w64\\bin\\gcc.exe",
+            "compilerPath": "C:/Tools/Mingw-w64/bin/gcc.exe",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "windows-gcc-x64"
