@@ -4,7 +4,7 @@
             "name": "Arduino",
             "includePath": [
                 "${workspaceFolder}/**",
-                "C:/Users/${env:Username}/AppData/Local/Arduino15/"
+                "C:/Users/${env:Username}/AppData/Local/Arduino15/**"
             ],
             "forcedInclude": [
                 "C:/Program Files (x86)/Arduino/hardware/arduino/avr/cores/arduino/Arduino.h"
@@ -12,7 +12,8 @@
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "USBCON"
             ],
             "compilerPath": "C:/Tools/Mingw-w64/bin/gcc.exe",
             "cStandard": "gnu17",
