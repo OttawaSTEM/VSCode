@@ -10,6 +10,7 @@
     "editor.guides.bracketPairs": "active",
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
     "window.title": "${rootName} - ${activeEditorLong}",
     "html.format.wrapLineLength": 240,
     "workbench.activityBar.visible": false,
