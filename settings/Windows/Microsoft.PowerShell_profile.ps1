@@ -7,7 +7,7 @@ function prompt {
     $PWD = Split-Path -leaf -path (Get-Location)
   } catch {}
 
-  if ($GitBranch) { $GitBranch = " `e[33;91m[$GitBranch`e[33;91m]`e[0m" }
+  if ($GitBranch) { $GitBranch = " `e[33;91m[$GitBranch]`e[0m" }
   
   $K8sContext = kubectx -c
   $K8sNamespace = kubens -c
