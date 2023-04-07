@@ -11,7 +11,7 @@ CYAN="\[\033[1;36m\]"
 RED="\[\033[1;91m\]"
 
 k8s () {
-    K8S_CLUSTER=$(kubectx -c)
+    K8S_CLUSTER=$(kubectx -c 2> /dev/null)
     if [ -n "${K8S_CLUSTER}" ]; then
         echo "$(kubectx -c):$(kubens -c)"
     fi
