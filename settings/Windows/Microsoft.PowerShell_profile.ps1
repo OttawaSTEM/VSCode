@@ -1,4 +1,4 @@
-# echo $profile
+# New-Item -Path $profile -Type File -Force
 function prompt {
   try {
     $GitBranch = git branch --show-current
