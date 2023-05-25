@@ -16,3 +16,5 @@ Bootstrap 5 & Font Awesome Snippets
 
 # Python
 Python  
+
+# Markdown Preview Enhanced
