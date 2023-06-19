@@ -1,20 +1,23 @@
-# Default 
-vscode-icons
+# Vscode Extensions
+* vscode-icons
 
-# C++
-## Windows
-C/C++
+* C/C++
+* CodeLLDB (Mac OS C/C++)  
+* Python
+* Flutter / Dart
+* YAML
 
-## Mac OS
-C/C++  
-CodeLLDB  
+* Kubernetes
+* SFTP (Natizyskunk)
 
-# HTML
-Auto Rename Tag  
-Live Server  
-Bootstrap 5 & Font Awesome Snippets  
+* Auto Rename Tag  
+* Bootstrap 5 & Font Awesome Snippets
+* Prettier - Code formatter
 
-# Python
-Python  
+* Markdown Preview Enhanced
 
-# Markdown Preview Enhanced
+* HashiCorp Terraform
+* HashiCorp HCL
+* Kube
+
+* Live Server  
