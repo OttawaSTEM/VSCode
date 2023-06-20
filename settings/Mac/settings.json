@@ -2,7 +2,7 @@
     "workbench.colorTheme": "Monokai",
     "workbench.colorCustomizations": {
         "editor.background": "#000000",
-        "sideBar.background": "#000000",
+        "sideBar.background": "#181818",
         "tab.activeBackground": "#555",
         "tab.inactiveBackground": "#111"
     },
@@ -11,7 +11,9 @@
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
     "editor.formatOnSave": true,
-    "window.title": "${rootName} - ${activeEditorLong}",
+    "breadcrumbs.enabled": false,
+    "window.title": "${activeEditorLong}",
+    "window.titleBarStyle": "native",
     "html.format.wrapLineLength": 240,
     "workbench.activityBar.visible": false,
     "git.confirmSync": false,
@@ -28,6 +30,9 @@
         "**/*.pyo": true,
         "**/venv": true,
         "**/.vscode": true
+    },
+    "files.associations": {
+        "*.hcl": "terraform"
     },
     "search.exclude": {
         "**/node_modules": true,
@@ -46,12 +51,24 @@
         "editor.tabSize": 2
     },
     "workbench.iconTheme": "vscode-icons",
-    "breadcrumbs.enabled": false,
     "explorer.compactFolders": false,
     "python.terminal.executeInFileDir": true,
     "python.formatting.provider": "autopep8",
     "python.formatting.autopep8Args": [
         "--max-line-length=200"
     ],
-    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}"
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 1000}",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            240
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": false
+    }
 }
