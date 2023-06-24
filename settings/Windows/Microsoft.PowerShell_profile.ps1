@@ -17,4 +17,6 @@ function prompt {
 }
 
 Set-Alias k kubectl
+Set-Alias kctx kubectx
+Set-Alias kns kubens
 Set-Alias l dir
