@@ -1,3 +1,4 @@
+# echo $profile
 # New-Item -Path $profile -Type File -Force
 function prompt {
   try {
