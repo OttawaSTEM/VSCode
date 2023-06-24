@@ -3,7 +3,7 @@
 function prompt {
   try {
     $GitBranch = git branch --show-current
-    $PWD = Split-Path -leaf -path (Get-Location)
+    # ß$PWD = Split-Path -leaf -path (Get-Location)
   } catch {}
 
   if ($GitBranch) { $GitBranch = " [`e[33;91m$GitBranch`e[0m]" }
