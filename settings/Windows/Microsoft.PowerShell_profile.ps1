@@ -10,9 +10,9 @@ function prompt {
   
   $K8sContext = kubectx -c
   $K8sNamespace = kubens -c
-	If ($K8sContext -and $K8sNamespace) {
-		$K8S = "[`e[1;33m$K8sContext`:$K8sNamespace`e[0m] "
-	}
+  If ($K8sContext -and $K8sNamespace) {
+    $K8S = "[`e[1;33m$K8sContext`:$K8sNamespace`e[0m] "
+  }
   
   "PS $K8S$PWD$GitBranch> "
 }
