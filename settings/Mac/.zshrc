@@ -20,6 +20,13 @@ NEWLINE=$'\n'
 export PROMPT='%F{yellow}[$(k8s)] %F{cyan}%n%F{red}@%F{green}%m:%F{yellow}%d %F{red}$(git_branch)%F{white}$%F{reset}${NEWLINE}'
 export CLICOLOR=1
 
-set -o vi
 alias l="ls -al"
 alias sudo="sudo "
+
+# fzf cli fuzzy finder
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Terraform
+alias tfl="terraform state list"
+alias tfs="terraform state list"
+alias tfv="terraform validate"
