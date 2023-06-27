@@ -22,3 +22,8 @@ Set-Alias k kubectl
 Set-Alias kctx kubectx
 Set-Alias kns kubens
 Set-Alias l dir
+
+# Terraform
+Set-Alias tfl "terraform state list"
+Set-Alias tfs "terraform state list"
+Set-Alias tfv "terraform validate"
