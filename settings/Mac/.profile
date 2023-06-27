@@ -30,6 +30,11 @@ set -o vi
 alias sudo="sudo "
 alias l="ls -al"
 
+# Terraform
+alias tfl="terraform state list"
+alias tfs="terraform state list"
+alias tfv="terraform validate"
+
 # Go
 export PATH=$PATH:/home/keli/go/bin
 
