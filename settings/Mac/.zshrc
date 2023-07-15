@@ -17,7 +17,7 @@ function git_branch() {
 
 setopt PROMPT_SUBST
 NEWLINE=$'\n'
-export PROMPT='%F{yellow}[$(k8s)] %F{cyan}%n%F{red}@%F{green}%m:%F{yellow}%d %F{red}$(git_branch)%F{white}$%F{reset}${NEWLINE}'
+export PROMPT='%F{red}[$(k8s)] %F{cyan}%n%F{red}@%F{green}%m:%F{yellow}%d %F{red}$(git_branch)%F{white}$%F{reset}${NEWLINE}'
 export CLICOLOR=1
 
 alias l="ls -al"
