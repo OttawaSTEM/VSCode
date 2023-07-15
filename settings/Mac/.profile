@@ -24,7 +24,7 @@ k8s () {
 git_branch () {
     git branch 2> /dev/null | sed -e "/^[^*]/d" -e "s/* \(.*\)/[\1]/"
 }
-export PS1="${YELLOW}[\$(k8s)] ${CYAN}\u${NORMAL}@${GREEN}\h${NORMAL}:${YELLOW}\w${NORMAL} ${RED}\$(git_branch)${NORMAL}\$\n"
+export PS1="${RED}[\$(k8s)] ${CYAN}\u${NORMAL}@${GREEN}\h${NORMAL}:${YELLOW}\w${NORMAL} ${RED}\$(git_branch)${NORMAL}\$\n"
 
 set -o vi
 alias sudo="sudo "
