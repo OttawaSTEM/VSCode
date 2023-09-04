@@ -1,0 +1,7 @@
+setopt PROMPT_SUBST
+NEWLINE=$'\n'
+export PROMPT='%F{cyan}%n%F{red}@%F{green}%m:%F{yellow}%d%F{white}$%F{reset}${NEWLINE}'
+export CLICOLOR=1
+
+alias l="ls -al"
+alias sudo="sudo "
