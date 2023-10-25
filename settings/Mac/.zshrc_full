@@ -4,7 +4,7 @@ export PATH=$PATH:/Users/Patrick/Documents/Tools/Flutter/bin
 function k8s() {
     K8S_CLUSTER=$(kubectx -c 2> /dev/null)
     if [ -n "${K8S_CLUSTER}" ]; then
-        echo "$(kubectx -c):$(kubens -c)"
+        echo "%F{red}[$(kubectx -c):$(kubens -c)] "
     fi
 }
 alias k="kubectl"
@@ -17,7 +17,7 @@ function git_branch() {
 
 setopt PROMPT_SUBST
 NEWLINE=$'\n'
-export PROMPT='%F{red}[$(k8s)] %F{cyan}%n%F{red}@%F{green}%m:%F{yellow}%d %F{red}$(git_branch)%F{white}$%F{reset}${NEWLINE}'
+export PROMPT='$(k8s)%F{cyan}%n%F{red}@%F{green}%m:%F{yellow}%d %F{red}$(git_branch)%F{white}$%F{reset}${NEWLINE}'
 export CLICOLOR=1
 
 alias l="ls -al"
