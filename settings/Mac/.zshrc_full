@@ -27,6 +27,8 @@ alias sudo="sudo "
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 # Terraform
+alias tfc="terraform console"
 alias tfl="terraform state list"
 alias tfs="terraform state list"
 alias tfv="terraform validate"
+alias tfo="terraform output"
