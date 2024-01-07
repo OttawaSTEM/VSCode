@@ -33,7 +33,7 @@ alias l="ls -al"
 # Terraform
 alias tfc="terraform console"
 alias tfl="terraform state list"
-alias tfs="terraform state list"
+alias tfs="terraform state show"
 alias tfv="terraform validate"
 alias tfo="terraform output"
 
