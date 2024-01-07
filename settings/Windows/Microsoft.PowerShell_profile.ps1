@@ -26,8 +26,18 @@ Set-Alias kns kubens
 Set-Alias l dir
 
 # Terraform
-Set-Alias tfc "terraform console"
-Set-Alias tfl "terraform state list"
-Set-Alias tfs "terraform state show"
-Set-Alias tfv "terraform validate"
-Set-Alias tfo "terraform output"
+function tfc {
+  terraform console
+}
+function tf {
+  terraform state list
+}
+function tfs {
+  terraform state show
+}
+function tfv {
+  terraform validate
+}
+function tfo {
+  terraform output
+}
