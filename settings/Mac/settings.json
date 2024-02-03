@@ -53,9 +53,19 @@
     "workbench.iconTheme": "vscode-icons",
     "explorer.compactFolders": false,
     "python.terminal.executeInFileDir": true,
-    "python.formatting.provider": "autopep8",
-    "python.formatting.autopep8Args": [
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8",
+        "editor.formatOnSave": true
+    },
+    "autopep8.args": [
+        "--max-line-length",
+        "200"
+    ],
+    "pylint.args": [
+        "--disable=C0103,C0111,C0114,C0301,C0410",
         "--max-line-length=200"
+        // "--load-plugins=pylint_django",
+        // "--errors-only",
     ],
     "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 1000}",
     "vsicons.dontShowNewVersionMessage": true,
