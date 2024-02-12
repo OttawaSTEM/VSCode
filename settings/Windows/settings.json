@@ -6,6 +6,7 @@
         "tab.activeBackground": "#555",
         "tab.inactiveBackground": "#111"
     },
+    "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": true,
     "editor.guides.bracketPairs": "active",
     "editor.linkedEditing": true,
