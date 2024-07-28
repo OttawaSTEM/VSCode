@@ -1,3 +1,5 @@
+# ~/.zshrc
+
 export PATH=$PATH:/Users/Patrick/Documents/Tools/Flutter/bin
 
 # Kubernetes
