@@ -1,0 +1,14 @@
+{
+	"workspaceFolder": "/workspace/portal",
+	"forwardPorts": [
+		8000
+	],
+	"remoteUser": "root",
+	"remoteEnv": {
+		"DJANGO_ENVIRONMENT": "Development"
+	},
+	"features": {
+		"azure-cli": "latest",
+		"kubelogin": "latest"
+	}
+}
