@@ -4,7 +4,8 @@
         "editor.background": "#000000",
         "sideBar.background": "#111111",
         "tab.activeBackground": "#555",
-        "tab.inactiveBackground": "#111"
+        "tab.inactiveBackground": "#111",
+        "editorIndentGuide.activeBackground1": "#ff0000"
     },
     "editor.accessibilitySupport": "off",
     "editor.bracketPairColorization.enabled": true,
