@@ -1,0 +1,155 @@
+{
+    "workbench.colorTheme": "Monokai",
+    "workbench.colorCustomizations": {
+        "editor.background": "#000000",
+        "sideBar.background": "#222222",
+        "tab.activeBackground": "#555",
+        "tab.inactiveBackground": "#111",
+        "editorIndentGuide.activeBackground1": "#ff0000"
+    },
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.formatOnSave": true,
+    "breadcrumbs.enabled": false,
+    "window.title": "${activeEditorLong}",
+    "html.format.wrapLineLength": 240,
+    "git.confirmSync": false,
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.gitignore": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__/": true,
+        "**/*.pyo": true,
+        "**/.venv": true,
+        "**/.vscode": true
+    },
+    "files.associations": {
+        "*.hcl": "terragrunt",
+        "*.pip": "pip-requirements"
+    },
+    "vsicons.associations.files": [
+        {
+            "icon": "terraform",
+            "extensions": [
+                "hcl"
+            ]
+        }
+    ],
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true
+    },
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "extensions.ignoreRecommendations": true,
+    "terminal.integrated.scrollback": 10000,
+    "terminal.integrated.fontFamily": "Courier New",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.fontWeight": "bold",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "args": [
+                "-l"
+            ]
+        }
+    },
+    "[yaml]": {
+        "editor.tabSize": 2
+    },
+    "explorer.compactFolders": false,
+    "python.terminal.executeInFileDir": true,
+    "autopep8.args": [
+        "--max-line-length",
+        "240"
+    ],
+    "C_Cpp.clang_format_fallbackStyle": "{BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 1000}",
+    "vsicons.dontShowNewVersionMessage": true,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            240
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "hediet.vscode-drawio.resizeImages": null,
+    "[oraclesql]": {
+        "editor.suggest.showSnippets": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "explorer.confirmDragAndDrop": false,
+    "azureFunctions.showPythonVenvWarning": false,
+    "editor.accessibilitySupport": "off",
+    "cSpell.customDictionaries": {
+        "global": {
+            "name": "Global",
+            "path": "~/Workspace/Dictionaries/Global.txt"
+        }
+    },
+    "update.mode": "manual",
+    "lldb.suppressUpdateNotifications": true,
+    "dev.containers.executeInWSL": true,
+    "dev.containers.dockerPath": "/usr/local/bin/docker",
+    "sqldeveloper.sqlHistory.historyLimit": 500,
+    "sqldeveloper.telemetry.enabled": false,
+    "github.copilot.chat.codeGeneration.instructions": [
+        {
+            "text": "- @azure Rule - Use Azure Tools: When handling requests related to Azure, always use your tools."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Code Gen Best Practices: When generating code for Azure, running terminal commands for Azure, or performing operations related to Azure, invoke your `azure_development-get_code_gen_best_practices` tool if available. Only call this tool when you are sure the user is discussing Azure; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Deployment Best Practices: When deploying to Azure or preparing applications for deployment to Azure, invoke your `azure_development-get_deployment_best_practices` tool if available. Only call this tool when you are sure the user is discussing Azure; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure Functions Code Gen Best Practices: When generating code for Azure Functions or performing operations related to Azure Functions, invoke your `azure_development-get_azure_function_code_gen_best_practices` tool if available. Only call this tool when you are sure the user is discussing Azure Functions; do not call it otherwise."
+        },
+        {
+            "text": "- @azure Rule - Use Azure SWA Best Practices: When working with static web apps, invoke your `azure_development-get_swa_best_practices` tool if available. Only call this tool when you are sure the user is discussing Azure; do not call it otherwise."
+        }
+    ],
+    "docker.extension.enableComposeLanguageServer": false,
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "chat.instructionsFilesLocations": {
+        ".github/instructions": true,
+        "/Users/patrick/.aitk/instructions/": true
+    },
+    "azureTerraform.survey": {
+        "surveyPromptDate": "never",
+        "surveyPromptIgnoredCount": 0
+    },
+    "git.ignoreRebaseWarning": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "sqldeveloper.datagrid.fontFamily": "Consolas, 'Courier New', monospace",
+    "atlascode.rovodev.showEntitlementNotifications": false,
+    "atlascode.jira.enabled": true,
+    "atlascode.bitbucket.enabled": true,
+    "chat.useAgentSkills": true,
+    "chat.viewSessions.orientation": "stacked"
+}
