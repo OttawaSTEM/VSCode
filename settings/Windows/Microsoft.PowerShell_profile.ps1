@@ -20,8 +20,12 @@ function prompt {
   } catch {}
 
   if ($GitBranch) { 
-    $GitBranch = "[$($magenta)$GitBranch$($reset)]"
+    $GitBranch = "[$($red)$GitBranch$($reset)]"
   }
 
   "PS $PWD $GitBranch>`n"
 }
+
+Set-Alias l Get-ChildItem
+Set-Alias kctx kubectx
+Set-Alias kns kubens
