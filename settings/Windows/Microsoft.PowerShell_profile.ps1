@@ -2,16 +2,16 @@
 # New-Item -Path $profile -Type File -Force
 # Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser
 
-$esc = [char]0x1b
-$reset = "$esc[0m"
-$blue = "$esc[94m"
-$cyan = "$esc[96m"
-$green = "$esc[92m"
-$gray = "$esc[90m"
-$magenta = "$esc[95m"
-$red = "$esc[91m"
-$white = "$esc[97m"
-$yellow = "$esc[93m"
+$ESC = [char]0x1b
+$RESET = "$ESC[0m"
+$BLUE = "$ESC[94m"
+$CYAN = "$ESC[96m"
+$GREEN = "$ESC[92m"
+$GRAY = "$ESC[90m"
+$MAGENTA = "$ESC[95m"
+$RED = "$ESC[91m"
+$WHITE = "$ESC[97m"
+$YELLOW = "$ESC[93m"
 
 function prompt {
   try {
@@ -20,7 +20,7 @@ function prompt {
   } catch {}
 
   if ($GitBranch) { 
-    $GitBranch = "[$($red)$GitBranch$($reset)]"
+    $GitBranch = "[$($RED)$GitBranch$($RESET)]"
   }
 
   "PS $PWD $GitBranch>`n"
