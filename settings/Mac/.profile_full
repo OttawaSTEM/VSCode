@@ -26,6 +26,9 @@ git_branch () {
 }
 export PS1="${RED}\$(k8s)${CYAN}\u${NORMAL}@${GREEN}\h${NORMAL}:${YELLOW}\w${NORMAL} ${RED}\$(git_branch)${NORMAL}\$\n"
 
+# Windows Git Bash
+# export PS1="${RED} $(k8s)${CYAN}\u${NORMAL}@${GREEN}\h${NORMAL}:${YELLOW}\w${NORMAL}${RED}`__git_ps1`${NORMAL}\$\n"
+
 set -o vi
 alias sudo="sudo "
 alias l="ls -al"
