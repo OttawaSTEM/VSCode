@@ -1,4 +1,6 @@
 # /bin/bash
+# Git Shell
+
 # Command prompt color
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
